@@ -39,7 +39,7 @@ movie-review-analyser/
 ## 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/arunperumalr/movie-review-analyser.git
 cd movie-review-analyser
 ```
 
