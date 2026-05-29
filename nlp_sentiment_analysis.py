@@ -2,25 +2,27 @@
 # NLP Sentiment Analysis using NLTK + sklearn
 # ============================================
 
-# Install required packages (Run once)
-# pip install nltk scikit-learn
-
 # Imports NLP tools: movie_reviews: +ve & -ve reviews
-import nltk
 from nltk.corpus import movie_reviews
 
 # Removing unnecessary words
 from nltk.corpus import stopwords
+
 # Splitting text into words
 from nltk.tokenize import word_tokenize
+
 # Used to reduce words to root forms: walking-walk | studies-study
 from nltk.stem import PorterStemmer, WordNetLemmatizer
+
 # TF-IDF: Converts text into numbers. Machine Learning models cannot understand text directly.
 from sklearn.feature_extraction.text import TfidfVectorizer
+
 # Splitting the dataset into training/testing data
 from sklearn.model_selection import train_test_split
+
 # Naive Bayes(NB): spam detection | sentiment analysis | text classification
 from sklearn.naive_bayes import MultinomialNB
+
 # Measuring how accurate the AI model is
 from sklearn.metrics import accuracy_score
 
